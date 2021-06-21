@@ -1,0 +1,100 @@
+.autosuggest{
+    position:relative;
+    width:25%;
+    margin: 40px auto;
+}
+
+.autoinput{
+    min-height: 50px;
+    border:none;
+    width:100%;
+    border-radius:5px;
+    border: 2px solid lightgray;
+    font-size:24px;
+}
+
+.autoinput input{
+    height:48px;
+    border:none;
+    width:100%;
+    background: transparent;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.autoinput input:active,.autoinput input:focus,.autoinput input:visited,.autoinput input:focus-visible{
+    border:none;
+    outline:none;
+}
+
+.options{
+    position: absolute;
+    width: 100%;
+    left:0;
+}
+
+.options .list{
+    list-style-type: none;
+    background:#ececec;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top:0;
+    width:100%;
+    padding:0;
+    max-height:200px;
+    overflow-y:scroll;
+}
+
+.options .list li{
+    padding: 10px;
+    margin:0;
+    text-align:left;
+    cursor:pointer;
+    font-size:14px;
+  }
+  .selecteditems__list{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+  }
+  .selecteditems__list li{
+    padding:6px;
+    display: inline;
+    background: #ececfe;
+    margin: 5px;
+    border-radius: 5px;
+    float: left;
+  }
+  .removeitem{
+    cursor: pointer;
+    background: url('../assets/close.svg') center no-repeat;
+    background-size: 14px;
+    padding: 2px 13px;
+  }
+  .arrow{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 15px;
+    height: 15px;
+    background: url('../assets/downarrow.svg') center no-repeat;
+    background-size: 15px 15px;
+    padding: 25px;
+  }
+   
+  .searchicon{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 15px;
+    height: 15px;
+    background: url('../assets/search.svg') center no-repeat;
+    background-size: 18px 18px;
+    padding: 26px 20px;
+  }
+   
+  .uparrow{
+    transform: rotate(180deg);
+  }
+  
